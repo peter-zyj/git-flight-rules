@@ -265,6 +265,7 @@ $ git add -A
 ```sh
 $ git checkout -b my-branch
 ```
+//Yijun: 相当于把working bench 公开给my-branch和当前的branch。随后，谁commit谁拥有最新的更新（暂存的内容f），没有commit恢复到最近的commit
 
 <a href="move-unstaged-edits-to-old-branch"></a>
 ### 我想把未暂存的内容移动到另一个已存在的分支
